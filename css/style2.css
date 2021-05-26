@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.he_border1:hover .he_border1_img,
+.he_border2:hover .he_border2_img {
+    transform: scale(1.2);
+	opacity: 0.6;
+}
+
+.he_border1:hover .he_border1_caption_p,
+.he_border2:hover .he_border2_caption_p{
+	top: 50%;
+	opacity: 1;
+}
+
+.he_border1:hover .he_border1_caption::before,
+.he_border2:hover .he_border2_caption::before{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.he_border1:hover .he_border1_caption::after,
+.he_border2:hover .he_border2_caption::after{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.he_3DFlipX_inner:hover .he_3DFlipX_img{
+    transform: rotateX(180deg);
+}
+
+.he_3DFlipX_inner:hover .he_3DFlipX_caption{
+    opacity: 1;
+    transform: rotateX(0);
+}
+
+.he_3DFlipY_inner:hover .he_3DFlipY_img{
+    transform: rotateY(180deg);
+}
+
+.he_3DFlipY_inner:hover .he_3DFlipY_caption{
+    opacity: 1;
+    transform: rotateY(0);
+}
